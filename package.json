@@ -1,0 +1,16 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "main": "index.js",
+  "author": "Pedro Ferreira <pedroferreirazez@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@monorepo/eslint-config": "*"
+  }
+}

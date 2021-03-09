@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-function App() {
+
+const App = () => {
   return (
-    <h1>Hello</h1>
+    <h1>Teste</h1>
   )
 }
 
